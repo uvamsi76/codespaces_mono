@@ -4,7 +4,9 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "build:BE":"cd codespaces_backend && npm build",
+    "build:FE":"cd codespaces_frontend && npm build"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
